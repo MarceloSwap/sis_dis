@@ -206,39 +206,11 @@ robot --version  # Verificar instalação
 # Teste automatizado de conectividade
 cd automacao
 robot -d logs tests/online.robot
-```
+
 
 ## 📁 Estrutura do Projeto
 
-```
-sis_dis/
-├── api/                    # 📦 Backend - API REST
-│   ├── src/
-│   │   ├── controllers/    # Controladores da API
-│   │   ├── middlewares/    # Middlewares (auth, cors, etc)
-│   │   ├── models/         # Modelos do MongoDB
-│   │   ├── schemas/        # Esquemas de validação
-│   │   └── app.js          # Configuração principal
-│   ├── .env                # Variáveis de ambiente
-│   └── package.json        # Dependências do backend
-├── web/                    # 🌐 Frontend - Interface Web
-│   ├── public/
-│   │   ├── css/            # Estilos CSS
-│   │   ├── js/             # Scripts JavaScript
-│   │   └── index.html      # Página principal
-│   ├── src/                # Código fonte React
-│   ├── server.js           # Servidor Express
-│   └── package.json        # Dependências do frontend
-├── automacao/              # 🤖 Testes Automatizados
-│   ├── resources/
-│   │   ├── fixtures/       # Dados de teste
-│   │   ├── libs/           # Bibliotecas customizadas
-│   │   └── pages/          # Page Objects
-│   ├── tests/              # Casos de teste
-│   └── logs/               # Relatórios de teste
-├── .vscode/                # Configurações do VS Code
-└── README.md               # Documentação do projeto
-```
+![Estrutura](estrutura.jpg)
 
 ## 🧪 Testes Automatizados
 
