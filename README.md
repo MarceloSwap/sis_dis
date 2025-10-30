@@ -206,11 +206,11 @@ robot --version  # Verificar instalação
 # Teste automatizado de conectividade
 cd automacao
 robot -d logs tests/online.robot
-```
+
 
 ## 📁 Estrutura do Projeto
 
-![Diagrama](doc\estrutura.jpg)
+![Estrutura](doc/estrutura.jpg)
 
 
 ## 🧪 Testes Automatizados
