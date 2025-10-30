@@ -14,7 +14,7 @@ O **SisDis** é um sistema distribuído completo de gerenciamento de tarefas des
 
 ## 2. Projeto Final - Diagrama de Componentes
 
-![Diagrama](doc\diagrama.jpg)
+![Diagrama](doc/diagrama.jpg)
 
 
 ### Descrição dos Componentes:
