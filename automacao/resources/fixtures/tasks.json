@@ -1,0 +1,62 @@
+{
+    "create": {
+        "user": {
+            "name": "Magnus Carlsen",
+            "email": "magnus@chess.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "title": "Estudar abertura Siciliana",
+            "description": "Preparar variações da defesa Siciliana para o próximo torneio",
+            "priority": "alta"
+        }   
+    },
+    "duplicate": {
+        "user": {
+            "name": "Garry Kasparov",
+            "email": "kasparov@chess.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "title": "Analisar partida contra Deep Blue",
+            "description": "Revisar os erros cometidos na partida histórica",
+            "priority": "media"
+        }   
+    },
+    "tags_limit": {
+        "user": {
+            "name": "Bobby Fischer",
+            "email": "fischer@chess.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "title": "Preparar defesa Francesa",
+            "description": "Estudar as principais variações da defesa Francesa",
+            "priority": "baixa"
+        }   
+    },
+    "done": {
+        "user": {
+            "name": "Anatoly Karpov",
+            "email": "karpov@chess.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "title": "Treinar finais de torre",
+            "description": "Praticar técnicas de finais com torres",
+            "priority": "alta"
+        }  
+    },
+    "delete": {
+        "user": {
+            "name": "José Capablanca",
+            "email": "capablanca@chess.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "title": "Estudar gambito da Dama",
+            "description": "Analisar as principais linhas do gambito da Dama",
+            "priority": "media"
+        }  
+    }
+}

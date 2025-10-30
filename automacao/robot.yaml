@@ -1,0 +1,12 @@
+pythonpath:
+  - resources/libs
+
+variables:
+  EXECDIR: .
+
+libraries:
+  - Browser
+  - RequestsLibrary
+  - JSONLibrary
+  - Collections
+  - libs/database.py
